@@ -1,0 +1,206 @@
+/*https://coolors.co/d8f3dc-b7e4c7-95d5b2-74c69d-52b788-40916c-2d6a4f-1b4332-081c15*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+/*header items*/
+.left-item h1 {
+  text-decoration: none;
+  color: black;
+}
+
+.header_column {
+  display: flex;
+  flex-direction: row;
+}
+
+.left_item {
+  padding: 20px;
+  flex: 100%;
+  text-align: left;
+}
+
+.right_item {
+  padding: 10px;
+  flex: 20%;
+  text-align: center;
+}
+
+.left_item img:hover {
+    background-color: #d8f3dc;
+    border-radius: 60px;
+}
+
+
+
+/*index/search result items*/
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 5px;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 5px 5px 5px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+/*footer items*/
+.footer_nav {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.icon:hover {
+  background-color: #d8f3dc;
+  border-radius: 60px;
+}
+
+#menu {
+  padding: 10px;
+  flex: 35%;
+}
+
+#search {
+  padding: 10px;
+  flex: 35%;
+}
+
+#cart {
+  padding: 10px;
+  flex: 35%;
+}
+
+
+/*filter items*/
+.item_row form {
+  width: 100%;
+}
+
+.item_row button {
+  width: 100%;
+  padding: 40px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  background-color: white;
+  border: none;
+}
+
+.item_row button:hover {
+  background-color: #d8f3dc;
+}
+
+
+
+
+/*shopping cart items*/
+.cart_items {
+  display: flex;
+  flex-direction: column;
+}
+
+.item_row {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+
+#left_cartitem {
+  flex: 80%;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 30px;
+}
+
+#right_cartitem {
+  flex: 20%;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+#right_cartitem img {
+  margin: 20px;
+}
+
+#delete_button {
+  border: none;
+  background-color: white;
+}
+
+.order_button {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.order_button button {
+  padding: 20px;
+  margin: 40px 40px 150px 40px;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #74c69d;
+  color: white;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+
+
+/*search page items*/
+.search_bar {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+#text_input {
+  padding: 10px;
+  flex: 80%;
+  border: none;
+  background-color: #d8f3dc;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#button {
+  padding: 10px;
+  flex: 20%;
+  border: none;
+  cursor: pointer;
+  background-color: #d8f3dc;
+}
