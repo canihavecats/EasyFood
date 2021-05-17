@@ -17,9 +17,14 @@
 
     <!-- photogrid -->
     <?php
+    //prompt message to press the x button
+      function msg() {
+      echo "Press X to return";
+    }
     //inserts items to the shopping cart
     $sql = "INSERT INTO shopping_cart (ProductID, ProductName, Price) SELECT ProductID, ProductName, Price FROM product WHERE ProductID = '".$_POST['productid']."'";
     $result = mysqli_query($link, $sql);
+    msg();
 
 
     // if successfully updated.
